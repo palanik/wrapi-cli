@@ -1,0 +1,42 @@
+{
+  "name": "wrapi-cli",
+  "version": "0.0.1",
+  "description": "Command line access to Restful APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Restful",
+    "API",
+    "wrapper",
+    "functions",
+    "api",
+    "function",
+    "api wrapper",
+    "api function",
+    "command",
+    "curl",
+    "command-line",
+    "cli"
+  ],
+  "author": "N. Palani Kumanan",
+  "contributors": [
+    "N. Palani Kumanan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palanik/wrapi.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "urlpattern": "^0.1.0"
+  }
+}
